@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../imgs/pexels-eberhardgross-691668.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 430px;
+    padding: 80px 40px;
+    border: 2px solid rgb(6, 35, 57, .5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10 #062339;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    color: #062339;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper .inputBox {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputBox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(6, 35, 57, .5);
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    transition: all 0.4s;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inputBox input::placeholder {
+    color: rgb(6, 35, 57, .5);
+}
+
+.inputBox input:focus {
+    border: 2px solid rgb(6, 35, 75);
+}
+
+.wrapper .remember_forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 15px 20px;
+}
+
+.remember_forget label input {
+    color: #fff;
+    margin-right: 3px;
+}
+
+.remember_forget a {
+    color: #062339;
+    text-decoration: none;
+}
+
+.remember_forget a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: #222;
+    font-weight: 600;
+    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all .2s;
+    transform: translateY(-3px);
+}
+
+.wrapper .btn:hover {
+    background: #062339;
+    color: #eee;
+}
+
+.wrapper .btn:active {
+    transform: translateY(0px);
+}
+
+.wrapper .register_link {
+    margin: 20px 0 15px;
+    font-size: 14.6;
+    text-align: center;
+}
+
+.register_link p a {
+    margin-left: 5px;
+    color: #062339;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register_link p a :hover {
+    text-decoration: underline;
+}
