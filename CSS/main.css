@@ -25,8 +25,10 @@ body {
     border-radius: 10px;
 }
 @media (max-width : 767px) { 
-    width: 330px;
+   .wrapper{
+       width: 330px;
     padding: 60px 30px;
+}
 }
 
 .wrapper h1 {
