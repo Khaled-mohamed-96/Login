@@ -21,8 +21,12 @@ body {
     padding: 80px 40px;
     border: 2px solid rgb(6, 35, 57, .5);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 10 #062339;
+    box-shadow: 0 0 10px #062339;
     border-radius: 10px;
+}
+@media (max-width : 767px) { 
+    width: 330px;
+    padding: 60px 30px;
 }
 
 .wrapper h1 {
